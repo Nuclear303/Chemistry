@@ -1,0 +1,58 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.main-header{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    top: 0;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    z-index: 100;
+    margin-top: 40px;
+}
+.menu-list{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.menu-element a{
+    color: white;
+    font-family: 'Apple chancery';
+    cursor: pointer;
+}
+.home{
+    font-size: x-large;
+}
+hr{
+    width: 80%;
+}
+.more{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+}
+.cytat{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cytat-text{
+    width: 60%;
+}
