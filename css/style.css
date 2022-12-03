@@ -49,10 +49,20 @@ hr{
     border-radius: 5px;
 }
 .cytat{
+    padding: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .cytat-text{
     width: 60%;
+}
+.info{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.more{
+    padding: 35px;
 }
