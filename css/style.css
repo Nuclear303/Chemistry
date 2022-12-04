@@ -30,6 +30,12 @@
     color: white;
     font-family: 'Apple chancery';
     cursor: pointer;
+    text-align: center;
+}
+.menu-element{
+    display: inline-block;
+    text-align: center;
+    
 }
 .home{
     font-size: 3vw;
@@ -76,4 +82,4 @@ hr{
     transform: translate(-50%, -50%);
     color: white;
     font-size: x-large;
-}
+} 

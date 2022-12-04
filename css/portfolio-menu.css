@@ -2,10 +2,17 @@
     display: none;
     background-color: rgb(99, 97, 97);
     margin-top: 1vh;
+    position: absolute;
+    float: left;
 }
 .portfolio:hover>.portfolio-menu{
     display: block;
 }
 .element-portfolio{
-    padding: 10px;
+    padding: 20px;
+}
+.portfolio-menu li{
+    text-align: center;
+    position: relative;
+    display: list-item;
 }
