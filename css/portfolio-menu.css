@@ -1,0 +1,11 @@
+.portfolio-menu{
+    display: none;
+    background-color: rgb(99, 97, 97);
+    margin-top: 1vh;
+}
+.portfolio:hover>.portfolio-menu{
+    display: block;
+}
+.element-portfolio{
+    padding: 10px;
+}
