@@ -1,0 +1,43 @@
+.container-header{
+    display: none;
+}
+.line{
+    display: block;
+    position: relative;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    transform-origin: 0 0;
+    transition: 0.4s;
+}
+.menu-button{
+    display: none;
+}
+@media (max-width:842px) {
+    .menu-button{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .container-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        padding: 40px;
+    }
+    .logo{
+        color: white;
+        font-size: x-large;
+    }
+    .menu-button:hover>.move-left{
+        transform: translateX(-1vw);
+    }
+}
+.menu-button:hover>.move-right{
+    transform: translateX(0.5vw);
+}
