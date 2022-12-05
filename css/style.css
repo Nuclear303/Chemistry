@@ -33,8 +33,12 @@
     text-align: center;
 }
 .menu-element{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    position: relative;
     
 }
 .home{
@@ -83,3 +87,7 @@ hr{
     color: white;
     font-size: x-large;
 } 
+.menu-element:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}

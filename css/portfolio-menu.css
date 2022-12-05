@@ -1,9 +1,9 @@
 .portfolio-menu{
     display: none;
     background-color: rgb(99, 97, 97);
-    margin-top: 1vh;
+    margin-top: 190px;
     position: absolute;
-    float: left;
+    text-align: center;
 }
 .portfolio:hover>.portfolio-menu{
     display: block;
@@ -15,4 +15,11 @@
     text-align: center;
     position: relative;
     display: list-item;
+}
+.dropdown-element{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-menu li:hover{
+    background-color: rgb(81, 79, 79);
 }
