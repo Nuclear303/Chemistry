@@ -16,6 +16,7 @@
     <header>
         <div class="nav">
         <nav class="main-header">
+            <input type="checkbox" name="" id="check-button">
             <div class="slideshow-container">
                 <div class="mySlides fade">
                     <img src="./images/glowne.jpg" style="width:100%">
@@ -46,13 +47,20 @@
                         Magda
                     </p>
                 </div>
-                <div class="menu-button">
-                    <p class="line move-right"></p>
-                    <p class="line move-left"></p>
-                    <p class="line move-right"></p>
-                </div>
+                <label for="check-button">
+                    <div class="menu-button">
+                        <p class="line move-right"></p>
+                        <p class="line move-left"></p>
+                        <p class="line move-right"></p>
+                    </div>
+                </label>
             </div>
             <div class="menu">
+                <label for="check-button" class="overlay">
+                    <div class="overlay-menu-button">
+                        <p class="x-mark">&#10005;</p>
+                    </div>
+                </label>
                 <ul class="menu-list">
                     <li class="menu-element">
                         <a href="" class="about">

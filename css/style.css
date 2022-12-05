@@ -17,7 +17,7 @@
     padding: 20px;
     margin: 0;
     position: absolute;
-    z-index: 100;
+    z-index: 2;
     margin-top: 40px;
 }
 .menu-list{

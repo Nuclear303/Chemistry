@@ -15,9 +15,31 @@
 .menu-button{
     display: none;
 }
+#check-button{
+    display: none;
+}
+.overlay-menu-button{
+    display: none;
+}
 @media (max-width:842px) {
     .menu-button{
         display: block;
+        z-index: 3;
+    }
+    .overlay-menu-button{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .overlay{
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 20px 0px 0px ;
+    }
+    .x-mark{
+        color: white;
+        transform: scale(2);
     }
     .menu{
         display: none;
@@ -37,7 +59,34 @@
     .menu-button:hover>.move-left{
         transform: translateX(-1vw);
     }
-}
-.menu-button:hover>.move-right{
-    transform: translateX(0.5vw);
+    .menu-button:hover>.move-right{
+        transform: translateX(0.5vw);
+    }
+    #check-button:checked~.menu{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: darkgrey;
+        margin-top: 0;
+    }
+    #check-button:checked~ body{
+        overflow: hidden;
+    }
+    .menu-list{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        text-align: center;
+        padding: 50px 0px 50px 0px;
+        
+    }
 }
