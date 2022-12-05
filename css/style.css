@@ -91,3 +91,9 @@ hr{
     transform: scale(1.05);
     transition: 0.7s;
 }
+.info-text{
+    width: 70%;
+}
+.hr-pierwszy{
+    width: 50%;
+}
