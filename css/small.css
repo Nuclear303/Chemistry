@@ -72,7 +72,7 @@
         background-color: darkgrey;
         margin-top: 0;
     }
-    #check-button:checked~ body{
+    body:has(#check-button:checked){
         overflow: hidden;
     }
     .menu-list{
