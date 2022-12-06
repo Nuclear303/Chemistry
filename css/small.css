@@ -123,4 +123,7 @@
     .x-mark:hover{
         animation: xmark 0.7s;
     }
+    .home{
+        font-size: medium;
+    }
 }
