@@ -26,7 +26,7 @@
     justify-content: space-between;
     width: 90%;
 }
-.menu-element a{
+.menu-element a, .menu-element p{
     color: white;
     font-family: 'Apple chancery';
     cursor: pointer;

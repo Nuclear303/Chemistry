@@ -1,3 +1,6 @@
+.x-mark{
+    color: white;
+}
 .container-header{
     display: none;
 }
@@ -21,7 +24,15 @@
 .overlay-menu-button{
     display: none;
 }
+#portfolio-button{
+    display: none;
+}
 @media (max-width:842px) {
+    @keyframes xmark {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
     .menu-button{
         display: block;
         z-index: 3;
@@ -36,10 +47,6 @@
         display: flex;
         justify-content: flex-end;
         margin: 20px 20px 0px 0px ;
-    }
-    .x-mark{
-        color: white;
-        transform: scale(2);
     }
     .menu{
         display: none;
@@ -76,17 +83,44 @@
         overflow: hidden;
     }
     .menu-list{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 50%;
+        position: relative;
+        display: block;
+        height: 70%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         list-style: none;
         text-align: center;
-        padding: 50px 0px 50px 0px;
+        padding: 25px 0px 50px 0px;
         
+    }
+    .menu-element{
+        display: block;
+        position: relative;
+        padding: 30px;
+    }
+    .portfolio:hover>.portfolio-menu{
+        display: none;
+    }
+    #portfolio-button:checked~.portfolio-menu{
+        display: block;
+        position: relative;
+        margin-top: 0;
+        background-color: transparent;
+    }
+    .menu-element:hover{
+        transform: scale(1);
+    }
+    .portfolio-menu li:hover{
+        background-color: transparent;
+    }
+    .menu-element:nth-child(1){
+        padding: 0 0 30px 0 ;
+    }
+    .element-portfolio:nth-child(3){
+        padding-bottom: 0;
+    }
+    .x-mark:hover{
+        animation: xmark 0.7s;
     }
 }
