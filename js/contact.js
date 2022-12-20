@@ -6,10 +6,10 @@ function sendEmail(){
     let wiadomosc = document.querySelector("textarea").value;
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "witoldsrutakontakt@gmail.com",
-        Password : "FF5A94D1BF4900DA5A95941B77E5DD5F1BF4",
-        To : 'witoldsrutakontakt@gmail.com',
-        From : "witoldsrutakontakt@gmail.com",
+        Username : "m.morzycki980@gmail.com",
+        Password : "FA371C4E22B8738B2EFAA5D012E547326ECE",
+        To : 'm.morzycki980@gmail.com',
+        From : "m.morzycki980@gmail.com",
         Subject : "Wiadomość ze strony",
         Body : `Imię:${imie} <br>
                 Nazwisko: ${nazwisko}<br>

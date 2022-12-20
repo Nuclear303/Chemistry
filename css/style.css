@@ -56,12 +56,17 @@ hr{
     display: flex;
     justify-content: center;
 }
-.button{
+.more-button{
     background-color: gray;
     color: white;
     text-transform: uppercase;
     padding: 15px;
     border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+.more-button:hover{
+    opacity: 0.9;
 }
 .cytat{
     padding: 20px;
