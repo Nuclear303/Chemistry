@@ -118,6 +118,7 @@
         position: relative;
         margin-top: 0;
         background-color: transparent;
+        animation: unset;
     }
     .menu-element:hover{
         transform: scale(1);
