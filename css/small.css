@@ -1,3 +1,11 @@
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 .x-mark{
     color: white;
 }
@@ -70,6 +78,7 @@
         transform: translateX(0.5vw);
     }
     #check-button:checked~.menu{
+        transition: 5s;
         display: block;
         position: fixed;
         top: 0;
@@ -78,6 +87,8 @@
         width: 100%;
         background-color: darkgrey;
         margin-top: 0;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
     }
     body:has(#check-button:checked){
         overflow: hidden;
