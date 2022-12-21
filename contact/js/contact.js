@@ -4,6 +4,9 @@ function sendEmail(){
     let email = document.querySelector("input[name='e-mail']").value;
     let telefon = document.querySelector("input[name='phone']").value;
     let wiadomosc = document.querySelector("textarea").value;
+    // let opcja1 = document.querySelector(".sesja1").checked.value;
+    // let opcja2 = document.querySelector(".sesja2").checked.value;
+    // let opcja3 = document.querySelector(".sesja3").checked.value;
     Email.send({
         Host : "smtp.elasticemail.com",
         Username : "krzysztofkajakkontakt@gmail.com",

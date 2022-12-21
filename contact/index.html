@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/slider.css">
-    <link rel="stylesheet" href="./css/portfolio-menu.css">
-    <link rel="stylesheet" href="./css/small.css">
-    <script src="./js/slider.js" defer></script>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/slider.css">
+    <link rel="stylesheet" href="./style/portfolio-menu.css">
+    <link rel="stylesheet" href="./style/small.css">
+    <link rel="stylesheet" href="./style/form.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <header>
@@ -19,27 +20,13 @@
             <input type="checkbox" name="" id="check-button">
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="./images/glowne.jpg" style="width:100%;">
+                    <img src="../images/letter.jpeg" style="width:100%;">
+                    <div class="img-text">
+                        KONTAKT 
+                    </div>
                 </div>
-        
-                <div class="mySlides fade">
-                <img src="./images/2.JPG" style="width:100%">
-                </div>
-        
-                <div class="mySlides fade">
-                    <img src="./images/img5.jpg" style="width:100%">
-                </div>
-            
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <br>
-
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
             <div class="container-header">
                 <div class="logo">
                     <p class="logo-text">
@@ -82,22 +69,22 @@
                                 <a href="" class="dropdown-element">Rodzinne</a>
                             </li>
                             <li class="element-portfolio">
-                                <a href="./portfolio/okolicznosciowe.html" class="dropdown-element">Okolicznościowe</a>
+                                <a href="../portfolio/okolicznosciowe.html" class="dropdown-element">Okolicznościowe</a>
                             </li>
                         </ul>
                     </li>
                     <li class="menu-element">
-                        <a href="" class="home">
+                        <a href="../index.html" class="home">
                             HOME
                         </a>
                     </li>
                     <li class="menu-element">
-                        <a href="co" class="offert">
+                        <a href="" class="offert">
                             OFERTA
                         </a>
                     </li>
                     <li class="menu-element">
-                        <a href="./contact/index.html" class="contact">
+                        <a href="#" class="contact">
                             KONTAKT
                         </a>
                     </li>
@@ -108,30 +95,47 @@
     </header>
     <main>
         <div class="info">
-            <div class="info-text" style="font-size: 4vw;">
-            Super jakieś pierdoły super tekst, pamiętajcie że jesteście najlepsi
+            <div class="info-text">
+                Jeśli chcesz się ze mną skontaktować wypełnij poniższy formularz 
+                <br><br><br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" style="transform: rotate(180deg);" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+                </svg>
             </div>
-        </div>
-        <hr class="hr-pierwszy">
-        <div class="cytat">
-            <div class="cytat-text" style="font-size: 3vw;">
-                Mam nadzieję, że Ci się tu spodoba!!!
-            </div>
-        </div>
-        <div class="image">
-            <img src="./images/kolarz.jpg" alt="" style="width: 100%;">
-            <div class="img-text">
-            </div>
-        </div>
-        <div class="more">
-            <a href="" class="more-button">
-                Show more ...
-            </a>
         </div>
         <hr>
-        <div class="cytat">
-            <div class="cytat-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magni, voluptatum consectetur reprehenderit illo aspernatur tempora praesentium illum deserunt. Quis sed eaque expedita odio ad perferendis aspernatur, voluptas labore sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, asperiores! Unde blanditiis fuga aliquid error voluptatibus laborum optio facilis sequi tenetur ea hic quaerat magni praesentium magnam, corporis cum sunt.
+        <br>
+        <div class="container">
+            <div class="form">
+                <form action="" method="get" onsubmit="sendEmail(); reset(); return false;">
+                    <p class="opis-form">Imię:</p>
+                    <input type="text" name="name"  placeholder="Imię"  required> <br>
+                    <p class="opis-form">Nazwisko:</p>
+                    <input type="text" name="last-name" id="" placeholder="Nazwisko" required> <br>
+                    <p class="opis-form">E-mail:</p>
+                    <input type="email" name="e-mail" id="" placeholder="E-mail" required><br>
+                    <p class="opis-form">Numer telefonu:</p>
+                    <input type="tel" name="phone" placeholder="Numer telefonu" id="" required><br>
+                    <p class="opis-form">Jakim rodzajem sesji jesteś zainteresowana/y?</p>
+                    <br>
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja1" id="" class="rodzaj sesja1" value="Opcja1"><div class="rodzaj">Opcja 1</div>
+                    </div>
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja2" id="" class="rodzaj sesja2" value="Opcja2"><div class="rodzaj">Opcja 2</div>
+                    </div>
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja3" id="" class="rodzaj sesja3" value="Opcja3"><div class="rodzaj">Opcja 3</div>
+                    </div>
+                    <br>
+                    <p class="opis-form">Wiadosmość:</p>
+                    <textarea name="message" id="" cols="30" rows="5" placeholder="Jak możemy pomóc?" required></textarea><br>
+                    <div class="buttons">
+                        <button type="submit" class="send">Wyślij</button>
+                        <button type="reset" class="send">Wyczyść</button>
+                    </div>
+                    
+                </form>
             </div>
         </div>
     </main>
@@ -145,7 +149,7 @@
                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                 </svg>
             </a>
-            <a href="index.html" title="powrót do góry">
+            <a href="#" title="powrót do góry">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-arrow-up" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
                 </svg>
@@ -157,5 +161,6 @@
             </a>
         </p>
     </footer>
+    <script src="./js/contact.js"></script>
 </body>
 </html>
