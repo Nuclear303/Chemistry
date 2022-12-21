@@ -16,10 +16,6 @@ form{
     margin-bottom: 2vh;
     padding: 2vw;
 }
-.header-form{
-    font-weight: 300;
-    font-size: 2vw;
-}
 .opis-form{
     font-size: 20px;
 }
@@ -60,4 +56,16 @@ form input, textarea{
 }
 .buttons{
     display: flex;
+}
+@media (max-width:700px){
+    .form{
+        width: 90%;
+    }
+    form{
+        width: 100%;
+        padding: 1vw;
+    }
+    .container{
+        width: 100%;
+    }
 }
