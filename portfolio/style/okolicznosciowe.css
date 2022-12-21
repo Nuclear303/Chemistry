@@ -49,6 +49,14 @@
 .home{
     font-size: xx-large;
 }
+.img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10vw;
+} 
 hr{
     width: 80%;
 }
