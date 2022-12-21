@@ -52,60 +52,18 @@
 hr{
     width: 80%;
 }
-.more{
-    display: flex;
-    justify-content: center;
-}
-.more-button{
-    background-color: gray;
-    color: white;
-    text-transform: uppercase;
-    padding: 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-}
-.more-button:hover{
-    opacity: 0.9;
-}
-.cytat{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.cytat-text{
-    width: 60%;
-}
 .info{
     padding: 10px;
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.more{
-    padding: 35px;
-}
-.image{
-    position: relative;
-}
-.img-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: x-large;
-} 
 .menu-element:hover{
     transform: scale(1.05);
     transition: 0.7s;
 }
 .info-text{
     width: 70%;
-}
-.hr-pierwszy{
-    width: 50%;
 }
 footer{
     padding: 10px;
@@ -120,7 +78,7 @@ footer{
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 .odnosniki{
     display: flex;
