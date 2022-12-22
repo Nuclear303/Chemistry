@@ -14,13 +14,6 @@
 .mySlides {
   display: block;
 }
-.slideshow-container{
-  position: relative;
-  height: 800px;
-  overflow: hidden;
-  background: url(glowne.jpg) no-repeat center;
-  background-size: cover;
-}
 
 
 /* Caption text */
