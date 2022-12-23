@@ -52,6 +52,9 @@
 .slide{
   display: block;
 }
+.slide-image{
+  border-radius: 10px;
+}
 .prev, .next {
   cursor: pointer;
   position: absolute;
