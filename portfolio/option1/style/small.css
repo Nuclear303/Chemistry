@@ -1,0 +1,141 @@
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.x-mark{
+    color: white;
+}
+.container-header{
+    display: none;
+}
+.line{
+    display: block;
+    position: relative;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    transform-origin: 0 0;
+    transition: 0.4s;
+}
+.menu-button{
+    display: none;
+}
+#check-button{
+    display: none;
+}
+.overlay-menu-button{
+    display: none;
+}
+#portfolio-button{
+    display: none;
+}
+@media (max-width:842px) {
+    @keyframes xmark {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    .menu-button{
+        display: block;
+        z-index: 3;
+    }
+    .overlay-menu-button{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .overlay{
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 20px 0px 0px ;
+    }
+    .menu{
+        display: none;
+    }
+    .container-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        padding: 20px 40px 0px 40px;
+    }
+    .logo{
+        color: white;
+        font-size: x-large;
+    }
+    .menu-button:hover>.move-left{
+        transform: translateX(-1vw);
+    }
+    .menu-button:hover>.move-right{
+        transform: translateX(0.5vw);
+    }
+    #check-button:checked~.menu{
+        transition: 5s;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: darkgrey;
+        margin-top: 0;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
+    body:has(#check-button:checked){
+        overflow: hidden;
+    }
+    .menu-list{
+        position: relative;
+        display: block;
+        height: 70%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        text-align: center;
+        padding: 25px 0px 50px 0px;
+        
+    }
+    .menu-element{
+        display: block;
+        position: relative;
+        padding: 30px;
+    }
+    .portfolio:hover>.portfolio-menu{
+        display: none;
+    }
+    #portfolio-button:checked~.portfolio-menu{
+        display: block;
+        position: relative;
+        margin-top: 0;
+        background-color: transparent;
+        animation: unset;
+    }
+    .menu-element:hover{
+        transform: scale(1);
+    }
+    .portfolio-menu li:hover{
+        background-color: transparent;
+    }
+    .menu-element:nth-child(1){
+        padding: 0 0 30px 0 ;
+    }
+    .element-portfolio:nth-child(3){
+        padding-bottom: 0;
+    }
+    .x-mark:hover{
+        animation: xmark 0.7s;
+    }
+    .home{
+        font-size: medium;
+    }
+}
