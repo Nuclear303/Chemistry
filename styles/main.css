@@ -1,0 +1,37 @@
+@keyframes logo-animation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+footer{
+    padding: 10px;
+    background: linear-gradient(150deg,#464646,rgb(37, 35, 35));
+    position: static;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-opis{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+}
+.odnosniki{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.odnosniki a{
+    display: flex;
+    align-items: center;
+    margin:2vw;
+    border:1px solid white;
+    padding: 10px;
+    border-radius: 60%;
+}
+.odnosniki a:hover{
+    cursor: pointer;
+    animation: logo-animation 1s;
+}

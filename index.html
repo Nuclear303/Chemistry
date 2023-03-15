@@ -4,8 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chemia organiczna</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/slider.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="main-header">
+            <input type="checkbox" name="" id="check-button">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="https://via.placeholder.com/600x600" style="width:100%;">
+                </div>
+        
+                <div class="mySlides fade">
+                <img src="https://via.placeholder.com/600x600" style="width:100%">
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="https://via.placeholder.com/600x600" style="width:100%">
+                </div>
+            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <div class="container-header">
+                <label for="check-button">
+                    <div class="menu-button">
+                        <p class="line move-right"></p>
+                        <p class="line move-left"></p>
+                        <p class="line move-right"></p>
+                    </div>
+                </label>
+            </div>
+            <div class="menu">
+                <label for="check-button" class="overlay">
+                    <div class="overlay-menu-button">
+                        <p class="x-mark">&#10005;</p>
+                    </div>
+                </label>
+                <ul class="menu-list">
+                    <li class="menu-element">
+                        <a href="" class="about">
+                            Strony internetowe
+                        </a>
+                    </li>
+                    <li class="menu-element portfolio">
+                        <label for="portfolio-button">
+                            <p class="portfolio">
+                                Aplikacji desktopowe
+                            </p>
+                        </label>
+                        <input type="checkbox" name="" id="portfolio-button">
+                        <ul class="portfolio-menu">
+                            <li class="element-portfolio">
+                                <a href="" class="dropdown-element">Dziecięce</a>
+                            </li>
+                            <li class="element-portfolio">
+                                <a href="./portfolio/option2/index.html" class="dropdown-element">Rodzinne</a>
+                            </li>
+                            <li class="element-portfolio">
+                                <a href="./portfolio/option1/okolicznosciowe.html" class="dropdown-element">Okolicznościowe</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-element">
+                        <a href="" class="home">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="menu-element">
+                        <a href="offert/index.html" class="offert">
+                            Aplikacji mobilne
+                        </a>
+                    </li>
+                    <li class="menu-element">
+                        <a href="./contact/index.html" class="contact">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer>
+        <p class="footer-opis"> 
+            Zawartość chroniona prawami autorskimi &copy;
+        </p>
+        <p class="odnosniki">
+            <a href="mailto:witoldsruta@gmail.com" title="Kontakt do mnie" mail>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+            </a>
+            <a href="index.html" title="powrót do góry">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+                </svg>
+            </a>
+            <a href="" title="Mój facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+            </a>
+        </p>
+    </footer>
 </body>
 </html>
