@@ -4,6 +4,6 @@ $(document).ready(_=>{
             $(".desktopowe-menu").slideDown()
         },
         function(){
-            $(".desktopowe-menu").slideUp()
+            $(".desktopowe-menu").slideUp(1000)
         });
 });
