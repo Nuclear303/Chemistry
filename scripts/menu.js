@@ -1,0 +1,9 @@
+$(document).ready(_=>{
+    $(".desktopowe").hover(
+        function(){
+            $(".desktopowe-menu").slideDown()
+        },
+        function(){
+            $(".desktopowe-menu").slideUp()
+        });
+});
