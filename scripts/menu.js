@@ -1,9 +1,9 @@
 $(document).ready(_=>{
-    $(".desktopowe").hover(
+    $(".temat21").hover(
         function(){
-            $(".desktopowe-menu").slideDown()
+            $(".temat2-menu").slideDown()
         },
         function(){
-            $(".desktopowe-menu").slideUp(1000)
+            $(".temat2-menu").slideUp()
         });
 });
