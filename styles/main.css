@@ -172,7 +172,7 @@ footer{
     display: none;
 }
 #check-button{
-    display: none;
+    display:none;
 }
 .overlay-menu-button{
     display: none;
@@ -255,7 +255,7 @@ footer{
         position: relative;
         padding: 30px;
     }
-    .temat2:hover>.temat2-menu{
+    .temat21:hover~.temat2-menu{
         display: none;
     }
     #temat2-button:checked~.temat2-menu{
