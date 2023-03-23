@@ -1,9 +1,24 @@
+
 $(document).ready(_=>{
-    $(".temat21").hover(
+    $(".temat2").hover(
         function(){
             $(".temat2-menu").slideDown()
         },
         function(){
             $(".temat2-menu").slideUp()
+        });
+    $(".temat3").hover(
+        function(){
+            $(".temat3-menu").slideDown()
+        },
+        function(){
+            $(".temat3-menu").slideUp()
+        });
+    $(".temat1").hover(
+        function(){
+            $(".temat1-menu").slideDown()
+        },
+        function(){
+            $(".temat1-menu").slideUp()
         });
 });

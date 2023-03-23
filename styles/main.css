@@ -52,8 +52,7 @@ header{
     flex-direction: column;
     text-align: center;
     position: relative;
-    
-    
+    width: 10%;
 }
 .menu-element::after{
     content: '';
@@ -74,7 +73,7 @@ header{
 .home{
     font-size: xx-large;
 }
-.temat2-menu{
+.under-menu{
     display: none;
     position: absolute;
     padding-top: 20px;
@@ -85,10 +84,7 @@ header{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.temat2:hover ~ .temat2-menu{
-    display: flex;
-}
-.element-temat2{
+.under-menu-element{
     justify-content: center;
     position: relative;
     display: flex;
@@ -177,7 +173,7 @@ footer{
 .overlay-menu-button{
     display: none;
 }
-#temat2-button{
+.under-menu-btn{
     display: none;
 }
 @media (max-width:842px) {
