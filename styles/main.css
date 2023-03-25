@@ -15,6 +15,9 @@ header{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif !important;
 }
+a{
+    text-decoration: none !important;
+}
 /* navbar */
 .main-header{
     display: flex;
@@ -251,6 +254,8 @@ footer{
         position: relative;
         padding: 30px;
     }
+
+    
     .temat21:hover~.temat2-menu{
         display: none;
     }
