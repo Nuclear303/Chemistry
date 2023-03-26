@@ -21,4 +21,13 @@ $(document).ready(_=>{
         function(){
             $(".temat1-menu").slideUp()
         });
+    $(".home-li").hover(function(){
+        $(this).animate({'letter-spacing':'4.5pt'},250);
+    },
+    function(){
+        $(this).animate({'letter-spacing':'0pt'},250);
+    }
+    );
 });
+
+let x = screen.width;

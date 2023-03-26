@@ -76,6 +76,13 @@ a{
 .home{
     font-size: xx-large;
 }
+.home-li{
+    width: fit-content;
+}
+/* .home:hover{
+    letter-spacing: 4.5pt;
+    transition: letter-spacing 0.25s ease-out;
+} */
 .under-menu{
     display: none;
     position: absolute;
