@@ -1,6 +1,4 @@
 $(document).ready(_=>{
-    let x = window.innerWidth;
-    document.querySelector(".content").textContent=x;
     $(".temat2").hover(
         function(){
             $(".temat2-menu").slideDown()
