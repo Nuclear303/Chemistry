@@ -1,8 +1,5 @@
 $(document).ready(_=>{
-<<<<<<< HEAD
     let x = window.innerWidth;
-=======
->>>>>>> a517e81cfa0e87582837a5bd01eefaccf479d631
     $(".temat2").hover(
         function(){
             $(".temat2-menu").slideDown()
