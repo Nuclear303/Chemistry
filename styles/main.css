@@ -285,3 +285,10 @@ footer{
         font-size: medium;
     }
 }
+
+
+.section-header{
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+}
