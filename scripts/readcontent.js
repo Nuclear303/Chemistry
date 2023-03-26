@@ -3,7 +3,6 @@ let url = window.location.href;
 let folder = url.substring(0, url.lastIndexOf('/')) + '/';
 
 let xhr = new XMLHttpRequest();
-console.log(folder + 'dane.xml')
 xhr.open('GET', folder + 'dane.xml', true);
 xhr.onload = function() {
   let xml = xhr.responseXML;
