@@ -79,10 +79,6 @@ a{
 .home-li{
     width: fit-content;
 }
-/* .home:hover{
-    letter-spacing: 4.5pt;
-    transition: letter-spacing 0.25s ease-out;
-} */
 .under-menu{
     display: none;
     position: absolute;
@@ -109,9 +105,20 @@ a.dropdown-element {
 /* main */
 main{
     background-color: #EEEEEE;
-    height: 80%;
 }
-/* stopka */
+.slider{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.slider-container{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    top: 0;
+}
+/* footer */
 
 footer{
     padding: 10px;

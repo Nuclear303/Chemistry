@@ -1,6 +1,5 @@
 $(document).ready(_=>{
     let x = window.innerWidth;
-    document.querySelector(".content").textContent=x;
     $(".temat2").hover(
         function(){
             $(".temat2-menu").slideDown()
@@ -24,7 +23,6 @@ $(document).ready(_=>{
         });
     $(window).resize(function(){
         let x = window.innerWidth;
-        document.querySelector(".content").textContent=x;
         if(x<842){
             $(".temat2").off("mouseenter mouseleave");
             $(".temat3").off("mouseenter mouseleave");
