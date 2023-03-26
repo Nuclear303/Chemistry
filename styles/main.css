@@ -63,7 +63,7 @@ a{
     width: 100%;
     transform: scaleX(0);
     height: 5px;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
     background-color: #548CA8;
     transform-origin: bottom right;
