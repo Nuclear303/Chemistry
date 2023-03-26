@@ -269,7 +269,7 @@ footer{
         display: block;
         width: 100%;
         position: relative;
-        padding: 30px;
+        padding: 20px 30px 30px 30px;
     }
     .menu-element::after{
         width: 0%;
@@ -280,6 +280,17 @@ footer{
     }
     #temat2-button:checked~.temat2-menu{
         display: block;
+        animation: fadeIn 3s;
+        transition: display 3s;
+    }
+    #temat1-button:checked~.temat1-menu{
+        display: block;
+    }
+    #temat3-button:checked~.temat3-menu{
+        display: block;
+    }
+    .under-menu{
+        padding: 0;
         position: relative;
         margin-top: 0;
         background-color: transparent;
@@ -290,9 +301,6 @@ footer{
     }
     .temat2-menu li:hover{
         background-color: transparent;
-    }
-    .menu-element:nth-child(1){
-        padding: 0 0 30px 0 ;
     }
     .element-temat2:nth-child(3){
         padding-bottom: 0;
