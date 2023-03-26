@@ -1,6 +1,14 @@
 <dane>
   <budowa>
-  lorem
+  <![CDATA[
+  <h2 class="section-header">Budowa fenoli</h2>
+  <figure>
+    <img src="../../images/Phenol2.svg">
+    <figcaption>Fenol (benzenol)</figcaption>
+  </figure>
+  
+  
+  ]]>
   </budowa>
   <wlasciwosci>
   lorem2
