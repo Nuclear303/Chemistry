@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemia organiczna</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/slider.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <nav class="main-header">
+            <input type="checkbox" name="" id="check-button">
+            <div class="container-header">
+                <label for="check-button">
+                    <div class="menu-button">
+                        <p class="line move-right"></p>
+                        <p class="line move-left"></p>
+                        <p class="line move-right"></p>
+                    </div>
+                </label>
+            </div>
+            <div class="menu">
+                <label for="check-button" class="overlay">
+                    <div class="overlay-menu-button">
+                        <p class="x-mark">&#10005;</p>
+                    </div>
+                </label>
+                <ul class="menu-list">
+                    <li class="menu-element temat1">
+                        <label for="temat1-button">
+                            <p>
+                                Węglowodory
+                            </p>
+                        </label>
+                        <input type="checkbox" name="" class="under-menu-btn" id="temat1-button">
+                        <ul class="under-menu temat1-menu">
+                            <li class="under-menu-element">
+                                <a href="" class="dropdown-element">ALKANY</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option2/index.html" class="dropdown-element">ALKENY</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option1/okolicznosciowe.html" class="dropdown-element">ALKINY</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-element temat2">
+                        <label for="temat2-button">
+                            <p>
+                                Pochodne
+                            </p>
+                        </label>
+                        <input type="checkbox" name="" class="under-menu-btn" id="temat2-button">
+                        <ul class="under-menu temat2-menu">
+                            <li class="under-menu-element">
+                                <a href="" class="dropdown-element">Alkohole</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./Pochodne/Fenole/" class="dropdown-element">Fenole</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option1/okolicznosciowe.html" class="dropdown-element">Aldehydy</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-element home-li">
+                        <a href="" class="home">CHEMISTRY</a>
+                    </li>
+                    <li class="menu-element temat3">
+                        <label for="temat3-button">
+                            <p>
+                                Dział III
+                            </p>
+                        </label>
+                        <input type="checkbox" name="" class="under-menu-btn" id="temat3-button">
+                        <ul class="under-menu temat3-menu">
+                            <li class="under-menu-element">
+                                <a href="" class="dropdown-element">temat1</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option2/index.html" class="dropdown-element">temat2</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option1/okolicznosciowe.html" class="dropdown-element">temat3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-element">
+                        <a href="./contact/index.html" class="contact">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <section class="description">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequatur esse fugit animi doloremque placeat quam? Neque cumque quibusdam consequatur id architecto excepturi maxime unde, quos ratione consequuntur iste corporis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae saepe vero ea nesciunt tempore libero voluptatibus id minus est laudantium dolorum, eveniet debitis animi doloribus nihil vitae earum unde ullam!
+                </p>
+            </section>
+            <section class="slider">
+                <div class="slider-container">
+                    <div class="slide fade">
+                        <img src="./images/1.jpg" class="slide-image" style="width:100%;">
+                    </div>
+            
+                    <div class="slide fade">
+                    <img src="./images/1.jpg" class="slide-image" style="width:100%">
+                    </div>
+            
+                    <div class="slide fade">
+                        <img src="./images/1.jpg" class="slide-image" style="width:100%">
+                    </div>
+                
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            </section>
+            <section class="webinar">
+
+            </section>
+            <section class="location">
+
+            </section>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="./scripts/jquery-3.6.3.min — kopia (12) — kopia.js" defer></script>
+    <script src="./scripts/menu.js" defer></script>
+    <script src="scripts/slider.js" defer></script>
+    <script src="./scripts/footer.js" defer></script>
+</body>
+</html>
