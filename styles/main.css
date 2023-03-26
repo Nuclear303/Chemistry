@@ -198,6 +198,9 @@ footer{
             transform: rotate(360deg);
         }
     }
+    .main-header{
+        background-color: #334257;
+    }
     .menu-button{
         display: block;
         z-index: 3;
@@ -221,8 +224,8 @@ footer{
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        position: absolute;
-        padding: 20px 40px 0px 40px;
+        position: static;
+        padding: 20px;
     }
     .logo{
         color: white;
@@ -235,14 +238,14 @@ footer{
         transform: translateX(0.5vw);
     }
     #check-button:checked~.menu{
-        transition: 5s;
+        transition: animation 2s;
         display: block;
         position: fixed;
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: darkgrey;
+        background-color: #476072;
         margin-top: 0;
         -webkit-animation: fadeIn 1s;
         animation: fadeIn 1s;
@@ -264,10 +267,13 @@ footer{
     }
     .menu-element{
         display: block;
+        width: 100%;
         position: relative;
         padding: 30px;
     }
-
+    .menu-element::after{
+        width: 0%;
+    }
     
     .temat21:hover~.temat2-menu{
         display: none;
