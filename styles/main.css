@@ -109,7 +109,6 @@ main{
 .slider{
     display: flex;
     justify-content: center;
-    padding: 40px;
 }
 .slider-container{
     position: relative;
