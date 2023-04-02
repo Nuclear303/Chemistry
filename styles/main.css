@@ -139,6 +139,7 @@ main{
 .description>p{
     padding-top: 2vh;
     padding-bottom: 2vh;
+    font-size: larger;
 }
 .description>p:nth-of-type(3){
     padding-top: 2vh;
@@ -147,6 +148,10 @@ main{
 .description>hr{
     border: 0.2vh solid black;
     border-radius: 2px;
+    width: 100%;
+}
+.description>hr:nth-of-type(2){
+    width: 60%;
 }
 /* footer */
 
