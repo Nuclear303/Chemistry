@@ -177,6 +177,27 @@ main{
     cursor: pointer;
     display: flex;;
 }
+.location{
+    padding: 6vw;
+    width: 100%;
+    display: flex;  
+    text-align: center;
+    justify-content: center;
+}
+.loc-desc{
+    font-size: 5vw;
+    text-align: right;
+    padding: 1vw;
+    padding-top: 0;
+}
+hr{
+    border: 0.15vh solid black;
+    border-radius: 2px;
+    width: 70%;
+}
+iframe{
+    border-radius: 1vw;
+}
 /* footer */
 
 footer{
