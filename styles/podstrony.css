@@ -2,4 +2,22 @@
   font-size: 2rem;
   position: relative;
   text-align: center;
+  width: 100%;
+}
+figure, section{
+ border:1px solid black;
+ border-collapse: collapse  ;
+}
+figure{
+  height:100%;
+  width:fit-content;
+}
+section{
+width:100%;
+display: flex;
+flex-wrap: wrap;
+font-size: large;
+}
+li > img{
+  height:100px;
 }

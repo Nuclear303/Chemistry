@@ -1,19 +1,41 @@
 <dane>
   <budowa>
   <![CDATA[
-  <h2 class="section-header">Budowa fenoli</h2>
-  <figure>
+  <h2 class="section-header">Budowa fenoli</h2><br>
+  <figure class="text-center">
     <img src="../../images/Phenol2.svg">
-    <figcaption>Fenol (benzenol)</figcaption>
+    <figcaption class="p-1">Fenol (benzenol)</figcaption>
   </figure>
-  
+  <article> Fenole składają się z <wbr> grupy arylowej oraz hydroksylowej.<wbr> W cząsteczce fenoli możemy znaleźć więcej niż jedną grupę OH, <wbr>lecz zwykle nie więcej niż 3. <br>Najprostszym fenolem jest benzenol (obrazek) <wbr>zwany również po prostu fenolem.</article>
   
   ]]>
   </budowa>
   <wlasciwosci>
-  lorem2
+  <![CDATA[
+  <h2 class="section-header">Właściwości fenoli</h2><br>
+  <article>
+  Na podstawie benzenolu:<br>
+  <ul>
+  <li> - Substancja stała, bezbarwna, krystaliczna</li>
+  <li> - Ulega reakcji dysocjacji jonowej</li>
+  <li> - Ciemnieje pod wpływem tlenu</li>
+  <li> - odczyn kwasowy</li>
+  </ul>
+  </article>
+  ]]>
   </wlasciwosci>
   <reakcje>
-  lorem3
+  <![CDATA[
+  <h2 class="section-header">Reakcje fenoli</h2><br>
+  <article>
+  Na podstawie benzenolu:<br>
+  <ul>
+  <li><img src="../../images/dysocjacja_fenolu.gif"><br>Dysocjacja jonowa</li>
+  <li><br><img src="../../images/fenolan.png"><br>Reakcje z wodorotlenkami (np. sodu)</li>
+  <li><br><img src="../../images/fenol_z_sodem.png"><br>Reakcje z metalami aktywnymi</li>
+  <li><br><img src="../../images/nitrowanie_fenoli.gif"><br>Nitrowanie fenolu</li>
+  </ul>
+  </article>
+  ]]>
   </reakcje>
 </dane>
