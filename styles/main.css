@@ -123,6 +123,7 @@ footer{
     padding: 10px;
     background: linear-gradient(150deg,#548CA8,#334257);
     position: static;
+    bottom:0;
     display: flex;
     justify-content: center;
     flex-direction: column;

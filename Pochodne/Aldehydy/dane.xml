@@ -1,0 +1,39 @@
+<dane>
+  <budowa>
+  <![CDATA[
+  <h2 class="section-header">Budowa aldehydów</h2><br>
+  <figure class="text-center">
+    <img src="../../images/formaldehyd.svg">
+    <figcaption class="p-1">Metanal<br>Formaldehyd<br>Aldehyd mrówkowy</figcaption>
+  </figure>
+  <article> Aldehydy składają się z <wbr> grupy arylowej lub alkilowej oraz grupy -CHO. Najprostszym aldehydem jest metanal, znany również jako aldehyd mrówkowy lub formaldehyd</article>
+  
+  ]]>
+  </budowa>
+  <wlasciwosci>
+  <![CDATA[
+  <h2 class="section-header">Właściwości aldehydów</h2><br>
+  <article>
+  <ul>
+  <li> - Metanal - gaz, reszta w szeregu homologicznym to ciecze</li>
+  <li> - Na ogół bezbarwne</li>
+  <li> - Wysoka lotność</li>
+  <li> - Lekkie aldehydy są trujące, cięższe, np. aromatyczne nie są toksyczne</li>
+  </ul>
+  </article>
+  ]]>
+  </wlasciwosci>
+  <reakcje>
+  <![CDATA[
+  <h2 class="section-header">Reakcje aldehydów</h2><br>
+  <article>
+  <ul>
+  <li><img src="../../images/proba_tollensa.png"><br>Próba Tollensa</li>
+  <li><br><img src="../../images/proba_trommera.png"><br>Próba Trommera<br>Powyższe próby wskazują na właściwości redukcyjne aldehydów</li>
+  <li><br><img src="../../images/polimeryzacja_metanalu.png"><br>Polimeryzacja, głównie aldehydy krótkie (metanal i etanal) oraz niektóre aromatyczne</li>
+  <li><br><img src="../../images/redukcja_aldehydów.png"><br>Redukcja aldehydów do alkoholi</li>
+  </ul>
+  </article>
+  ]]>
+  </reakcje>
+</dane>
