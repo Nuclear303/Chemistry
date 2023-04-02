@@ -62,8 +62,8 @@ a{
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 5px;
-    bottom: -2px;
+    height: 3px;
+    bottom: -4px;
     left: 0;
     background-color: #548CA8;
     transform-origin: bottom right;
@@ -105,9 +105,12 @@ a.dropdown-element {
 /* main */
 main{
     background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column ;
 }
 .slider{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .slider-container{
@@ -116,6 +119,34 @@ main{
     margin: 0;
     height: 100%;
     top: 0;
+    padding: 10vw;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    width: 70%;
+    padding: 6vw;
+    text-align: justify;
+    padding-bottom: 0vw;
+}
+.desc-header{
+    font-size: x-large;
+}
+.description>p{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.description>p:nth-of-type(3){
+    padding-top: 2vh;
+    padding-bottom: 0vh;
+}
+.description>hr{
+    border: 0.2vh solid black;
+    border-radius: 2px;
 }
 /* footer */
 
