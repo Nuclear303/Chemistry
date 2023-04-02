@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemia organiczna</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/slider.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/concact.css">
+</head>
+<body>
+    <header>
+        <nav class="main-header">
+            <input type="checkbox" name="" id="check-button">
+            <div class="container-header">
+                <div class="logo">
+                    <p class="logo-text">
+                        CHEMISTRY
+                    </p>
+                </div>
+                <label for="check-button">
+                    <div class="menu-button">
+                        <p class="line move-right"></p>
+                        <p class="line move-left"></p>
+                        <p class="line move-right"></p>
+                    </div>
+                </label>
+            </div>
+            <div class="menu">
+                <label for="check-button" class="overlay">
+                    <div class="overlay-menu-button">
+                        <p class="x-mark">&#10005;</p>
+                    </div>
+                </label>
+                <ul class="menu-list">
+                    <li class="menu-element temat1">
+                        <label for="temat1-button">
+                            <p>
+                                Węglowodory
+                            </p>
+                        </label>
+                        <input type="checkbox" name="" class="under-menu-btn checkbox1" id="temat1-button">
+                        <ul class="under-menu temat1-menu">
+                            <li class="under-menu-element">
+                                <a href="" class="dropdown-element">ALKANY</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option2/index.html" class="dropdown-element">ALKENY</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option1/okolicznosciowe.html" class="dropdown-element">ALKINY</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-element temat2">
+                        <label for="temat2-button">
+                            <p>
+                                Pochodne
+                            </p>
+                        </label>
+                        <input type="checkbox" name="" class="under-menu-btn checkbox2" id="temat2-button">
+                        <ul class="under-menu temat2-menu">
+                            <li class="under-menu-element">
+                                <a href="./Pochodne/Alkohole/" class="dropdown-element">Alkohole</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./Pochodne/Fenole/" class="dropdown-element">Fenole</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./Pochodne/Aldehydy/" class="dropdown-element">Aldehydy</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-element home-li">
+                        <a href="" class="home">CHEMISTRY</a>
+                    </li>
+                    <li class="menu-element temat3">
+                        <label for="temat3-button">
+                            <p>
+                                Dział III
+                            </p>
+                        </label>
+                        <input type="checkbox" name="" class="under-menu-btn checkbox3" id="temat3-button">
+                        <ul class="under-menu temat3-menu">
+                            <li class="under-menu-element">
+                                <a href="" class="dropdown-element">temat1</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option2/index.html" class="dropdown-element">temat2</a>
+                            </li>
+                            <li class="under-menu-element">
+                                <a href="./temat2/option1/okolicznosciowe.html" class="dropdown-element">temat3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-element">
+                        <a href="./contact/index.html" class="contact">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form">
+                <form action="" method="get" onsubmit="sendEmail(); reset(); return false;">
+                    <p class="opis-form">Imię:</p>
+                    <input type="text" name="name"  placeholder="Imię"  required> <br>
+                    <p class="opis-form">Nazwisko:</p>
+                    <input type="text" name="last-name" id="" placeholder="Nazwisko" required> <br>
+                    <p class="opis-form">E-mail:</p>
+                    <input type="email" name="e-mail" id="" placeholder="E-mail" required><br>
+                    <p class="opis-form">Numer telefonu:</p>
+                    <input type="tel" name="phone" placeholder="Numer telefonu" id="" required><br>
+                    <p class="opis-form">Jakim rodzajem kursu zainteresowana/y?</p>
+                    <br>
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja1" id="" class="rodzaj sesja1" value="Opcja1"><div class="rodzaj">Indywidualny</div>
+                    </div>
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja2" id="" class="rodzaj sesja2" value="Opcja2"><div class="rodzaj">Grupowy</div>
+                    </div>
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja3" id="" class="rodzaj sesja3" value="Opcja3"><div class="rodzaj">Inne</div>
+                    </div>
+                    <br>
+                    <p class="opis-form">Wiadosmość:</p>
+                    <textarea name="message" id="" cols="30" rows="5" placeholder="Jak możemy pomóc?" required></textarea><br>
+                    <div class="buttons">
+                        <button type="submit" class="send">Wyślij</button>
+                        <button type="reset" class="send">Wyczyść</button>
+                    </div>
+                    
+                </form>
+            </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="./scripts/jquery-3.6.3.min — kopia (12) — kopia.js" defer></script>
+    <script src="./scripts/menu.js" defer></script>
+    <script src="./scripts/slider.js" defer></script>
+    <script src="./scripts/footer.js" defer></script>
+</body>
+</html>
