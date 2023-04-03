@@ -75,23 +75,15 @@ $(document).ready(_=>{
 
 let checkbox1 = document.querySelector(".checkbox1");
 let checkbox2 = document.querySelector(".checkbox2");
-let checkbox3 = document.querySelector(".checkbox3");
 checkbox1.addEventListener("change",_=>{
     if(checkbox1.checked ){
         checkbox2.checked = false;
-        checkbox3.checked = false;
     }
 });
 checkbox2.addEventListener("change",_=>{
     if(checkbox2.checked ){
         checkbox1.checked = false;
-        checkbox3.checked = false;
     }
 });
-checkbox3.addEventListener("change",_=>{
-    if(checkbox1.checked ){
-        checkbox2.checked = false;
-        checkbox1.checked = false;
-    }
-});
+
 
