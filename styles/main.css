@@ -370,9 +370,13 @@ footer{
     }
     #temat1-button:checked~.temat1-menu{
         display: block;
+        animation: fadeIn 3s;
+        transition: display 3s;
     }
     #temat3-button:checked~.temat3-menu{
         display: block;
+        animation: fadeIn 3s;
+        transition: display 3s;
     }
     .under-menu{
         padding: 0;

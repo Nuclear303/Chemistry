@@ -1,0 +1,70 @@
+<dane>
+    <general>
+    <![CDATA[
+    <h1 class="section-header">Czym są alkany?</h1>
+    <p>Alkany to węglowodory nasycone, w którch cząsteczkach wszystkie atomy węgla są połączone wiązaniami pojedynczymi.</p>
+    ]]>
+    </general>
+    <budowa>
+        <![CDATA[
+            <h1 class="section-header">Jak są zbudowane alkany?</h1>
+            <p>Alkany są organicznymi związkami chemicznymi składającymi się z atomów węgla i wodoru, połączonych ze sobą wiązaniami kowalencyjnymi. Ich ogólny wzór sumaryczny to CnH2n+2. W cząsteczce alkanu każdy atom węgla jest połączony z czterema innymi atomami, z którymi tworzy kąty prostokątne, a każdy atom wodoru jest połączony z jednym atomem węgla. Alkany mają liniową lub rozgałęzioną strukturę, w zależności od liczby atomów węgla w cząsteczce. </p>
+        ]]>
+    </budowa>
+    <wlasciwosci>
+    <![CDATA[
+    <h2 class="section-header">Właściwości alkanów:</h2>
+    <article>
+    <ul>
+    <li> - Bezbarwne ciecze</li>
+    <li> - Są to związki chemiczne o niskiej reaktywności, co oznacza, że nie ulegają łatwo reakcjom chemicznym, takim jak utlenianie czy hydroliza.</li>
+    <li> - Ulegają rekacji kontrakcji - zmniejszają swoją objętość po dodaniu wody</li>
+    <li> - Niska gęstość</li>
+    <li> - Alkany mogą ulegać reakcjom substytucji, w których atom wodoru w cząsteczce alkanu zostaje zastąpiony przez inny atom lub grupę funkcyjną.</li>
+    </ul>
+    </article>
+    ]]>
+    </wlasciwosci>
+    <zastosowanie>
+    <![CDATA[
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../../images/ser.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>PRZEMYSŁ SPOŻYWCZY</h5>
+                          <p>Ser jest pokrywany parafiną. Dzięki niej ser może oddychać, a jednocześnie jest chroniony przed wysychaniem i rozwojem pleśni.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../images/aerozol.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>MEDYCYNA</h5>
+                          <p>Głównymi składnikami preparatów chłodzących w sprayu są propan oraz butan. Stosuje się je jako gazy nośne w aerozolach.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../images/paliwa.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>PALIWA</h5>
+                          <p>Alkany są ważnymi paliwami kopalnymi, takimi jak benzyna, nafta, gaz ziemny, olej napędowy i paliwa lotnicze. Są one stosowane do napędu pojazdów, statków powietrznych i maszyn przemysłowych.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+    ]]>
+    </zastosowanie>
+</dane>

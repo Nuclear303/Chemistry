@@ -1,0 +1,26 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.general, .wlasciwosci, .budowa{
+    width: 70%;
+    text-align: justify;
+    justify-content: center;
+    padding: 2vw;
+    font-size: larger;
+}
+.reakcje{
+    width: 100%;
+}
+.section-header{
+    font-size: xx-large;
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+}
+hr{
+    border: solid #476072 3.5px;
+    width: 60%;
+    opacity: 1;
+    border-radius: 5px;
+}
