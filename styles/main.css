@@ -157,19 +157,25 @@ main{
 }
 .webinar{
     font-size: x-large;
-    width: 70%;
+    width: 80%;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #334257;
+    padding: 10vh;
+    border-radius: 25px;
+}
+.webinar>p{
+    color: white;
 }
 .web{
     display: flex;
-    padding: 1vh;
+    margin: 5vh;
 }
 .web-btn{
-    background-color: #476072;
+    background-color: #548CA8;
     color: white;
     text-transform: uppercase;
     padding: 10px;
@@ -190,10 +196,10 @@ main{
     padding: 1vw;
     padding-top: 0;
 }
-hr{
-    border: 0.15vh solid black;
+.webinar>hr{
+    border: 0.3vh solid white;
     border-radius: 2px;
-    width: 70%;
+    width: 80%;
 }
 iframe{
     border-radius: 1vw;
