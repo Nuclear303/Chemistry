@@ -112,9 +112,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10vw;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
+    margin-top: 5vw;
 }
 .slider-container{
     position: relative;
@@ -157,7 +155,7 @@ main{
 }
 .webinar{
     font-size: x-large;
-    width: 80%;
+    width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -165,7 +163,7 @@ main{
     align-items: center;
     background-color: #334257;
     padding: 10vh;
-    border-radius: 25px;
+    border-bottom: #548CA8 solid 5px;
 }
 .webinar>p{
     color: white;
@@ -197,7 +195,7 @@ main{
     padding-top: 0;
 }
 .webinar>hr{
-    border: 0.3vh solid white;
+    border: 0.3vh solid #548CA8;
     border-radius: 2px;
     width: 80%;
 }
