@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/slider.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/concact.css">
 </head>
 <body>
     <header>
@@ -94,7 +95,7 @@
                         </ul>
                     </li>
                     <li class="menu-element">
-                        <a href="./contact.html" class="contact">
+                        <a href="./contact/index.html" class="contact">
                             Kontakt
                         </a>
                     </li>
@@ -103,73 +104,38 @@
         </nav>
     </header>
     <main>
-        <section class="content">
-            <section class="description">
-                <h1 class="desc-header">
-                    Co znajdziesz na naszej stronie?
-                </h1>
-                <p>
-                    Na naszej stronie dowiesz się podstawowych informacji o chemii organiczej. Mamy nadzię, że przyswajanie informacji stanie się dla Ciebie proste i przyjemne.
-                </p>
-                <hr>
-                <h1 class="desc-header">
-                    Czym jest chemia organiczna?
-                </h1>
-                <p>
-                    Chemia organiczna to dziedzina chemii, która zajmuje się badaniem związków chemicznych zawierających węgiel, zwykle w połączeniu z innymi pierwiastkami, takimi jak wodór, tlen, azot, siarka, fosfor i chlor. Węgiel jest kluczowym elementem chemii organicznej, ponieważ jest w stanie tworzyć stabilne wiązania chemiczne z innymi atomami węgla, jak również z innymi pierwiastkami.
-                </p>
-                <hr>
-                <p>
-                    Związki organiczne są obecne we wszystkich żywych organizmach, a także w wielu nieożywionych materiałach, takich jak ropa naftowa, węgiel, drewno, bawełna i tworzywa sztuczne. Chemia organiczna obejmuje szeroką gamę dziedzin, takich jak syntetyczna chemia organiczna, biochemia, chemia medyczna, chemia produktów naturalnych, chemia polimerów i wiele innych.
-                </p>
-            </section>
-            <section class="slider">
-                <div class="slider-container">
-                    <div class="slide fade">
-                        <img src="./images/1.jpg" class="slide-image" style="width:100%;">
+        <div class="container">
+            <div class="form">
+                <form action="" method="get" onsubmit="sendEmail(); reset(); return false;">
+                    <p class="opis-form">Imię:</p>
+                    <input type="text" name="name"  placeholder="Imię"  required> <br>
+                    <p class="opis-form">Nazwisko:</p>
+                    <input type="text" name="last-name" id="" placeholder="Nazwisko" required> <br>
+                    <p class="opis-form">E-mail:</p>
+                    <input type="email" name="e-mail" id="" placeholder="E-mail" required><br>
+                    <p class="opis-form">Numer telefonu:</p>
+                    <input type="tel" name="phone" placeholder="Numer telefonu" id="" required><br>
+                    <p class="opis-form">Jakim rodzajem kursu zainteresowana/y?</p>
+                    <br>
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja1" id="" class="rodzaj sesja1" value="Opcja1"><div class="rodzaj">Indywidualny</div>
                     </div>
-            
-                    <div class="slide fade">
-                    <img src="./images/2.jpg" class="slide-image" style="width:100%">
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja2" id="" class="rodzaj sesja2" value="Opcja2"><div class="rodzaj">Grupowy</div>
                     </div>
-            
-                    <div class="slide fade">
-                        <img src="./images/3.jpg" class="slide-image" style="width:100%">
+                    <div class="opcja">
+                        <input type="checkbox" name="sesja3" id="" class="rodzaj sesja3" value="Opcja3"><div class="rodzaj">Inne</div>
                     </div>
-                
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <br>
+                    <p class="opis-form">Wiadosmość:</p>
+                    <textarea name="message" id="" cols="30" rows="5" placeholder="Jak możemy pomóc?" required></textarea><br>
+                    <div class="buttons">
+                        <button type="submit" class="send">Wyślij</button>
+                        <button type="reset" class="send">Wyczyść</button>
+                    </div>
+                    
+                </form>
             </div>
-            <br>
-
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
-            </section>
-            <section class="webinar">
-                <p>Jeśli chcesz wziąć udział w naszym kursie, wypełnij formularz.</p>
-                <div class="web">
-                    <a href="./contact.html" class="web-btn">
-                        Zapisz się!!
-                    </a>
-                </div>
-            </section>
-            <hr>
-            <section class="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d596486.150868438!2d17.27632916203138!3d54.268152489186996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd70d57fd658c9%3A0x2461202c8b1922a6!2sNowa%20Era%20Wydawnictwo!5e0!3m2!1spl!2spl!4v1680467362605!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="loc-desc">
-                    <p>
-                    Nasza siedziba <br>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
-                    </svg>
-                    </p>
-                </div>
-                
-            </section>
-        </section>
     </main>
     <footer>
         
