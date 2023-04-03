@@ -1,0 +1,38 @@
+<dane>
+  <budowa>
+  <![CDATA[
+  <h2 class="section-header">Budowa alkoholi</h2><br>
+  <figure class="text-center">
+    <img src="../../images/Metanol.svg">
+    <figcaption class="p-1">Metanol</figcaption>
+  </figure>
+  <article>Alkohole składają się z grupy alkilowej oraz jednej (alkohole monohydroksylowe) lub więcej (alkohole polihydroksylowe). Metanol (obrazek) jest najprostszym z alkoholi.</article>
+  
+  ]]>
+  </budowa>
+  <wlasciwosci>
+  <![CDATA[
+  <h2 class="section-header">Właściwości alkoholi</h2><br>
+  <article>
+  <ul>
+  <li> - Bezbarwne ciecze</li>
+  <li> - Dobrze rozpuszczają się w wodzie</li>
+  <li> - Ulegają rekacji kontrakcji - zmniejszają swoją objętość po dodaniu wody</li>
+  <li> - Odczyn obojętny</li>
+  <li> - Im więcej grup -OH tym mniej toksyczne dla organizmu, wyższa temperatura wrzenia, topnienia i gęstość</li>
+  </ul>
+  </article>
+  ]]>
+  </wlasciwosci>
+  <reakcje>
+  <![CDATA[
+  <h2 class="section-header">Reakcje alkoholi</h2><br>
+  <article>
+  <ul>
+  <li class="h2"><img src="../../images/etanol_z_sodem.png"><br>Reakcja alkoholi z sodem (tańczący sód)</li>
+  <li class="h2"><br><img src="../../images/alkohol_z_chlorowodorem.png"><br>Reakcje alkoholi z chlorowodorem przy pomocy odczynnika Lucasa</li>
+  </ul>
+  </article>
+  ]]>
+  </reakcje>
+</dane>
