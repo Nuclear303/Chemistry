@@ -28,10 +28,10 @@
   <h2 class="section-header">Reakcje aldehydów</h2><br>
   <article>
   <ul>
-  <li><img src="../../images/proba_tollensa.png"><br>Próba Tollensa</li>
-  <li><br><img src="../../images/proba_trommera.png"><br>Próba Trommera<br>Powyższe próby wskazują na właściwości redukcyjne aldehydów</li>
-  <li><br><img src="../../images/polimeryzacja_metanalu.png"><br>Polimeryzacja, głównie aldehydy krótkie (metanal i etanal) oraz niektóre aromatyczne</li>
-  <li><br><img src="../../images/redukcja_aldehydów.png"><br>Redukcja aldehydów do alkoholi</li>
+  <li class="h2"><img src="../../images/proba_tollensa.png"><br>Próba Tollensa</li>
+  <li class="h2"><br><img src="../../images/proba_trommera.png"><br>Próba Trommera<br>Powyższe próby wskazują na właściwości redukcyjne aldehydów</li>
+  <li class="h2"><br><img src="../../images/polimeryzacja_metanalu.png"><br>Polimeryzacja, głównie aldehydy krótkie (metanal i etanal) oraz niektóre aromatyczne</li>
+  <li class="h2"><br><img src="../../images/redukcja_aldehydów.png"><br>Redukcja aldehydów do alkoholi</li>
   </ul>
   </article>
   ]]>

@@ -14,7 +14,7 @@
   <![CDATA[
   <h2 class="section-header">Właściwości fenoli</h2><br>
   <article>
-  Na podstawie benzenolu:<br>
+  <span Na podstawie benzenolu:>Na podstawie benzenolu:</span><br>
   <ul>
   <li> - Substancja stała, bezbarwna, krystaliczna</li>
   <li> - Ulega reakcji dysocjacji jonowej</li>
@@ -28,12 +28,12 @@
   <![CDATA[
   <h2 class="section-header">Reakcje fenoli</h2><br>
   <article>
-  Na podstawie benzenolu:<br>
+  <span class="h2">Na podstawie benzenolu:</span><br>
   <ul>
-  <li><img src="../../images/dysocjacja_fenolu.gif"><br>Dysocjacja jonowa</li>
-  <li><br><img src="../../images/fenolan.png"><br>Reakcje z wodorotlenkami (np. sodu)</li>
-  <li><br><img src="../../images/fenol_z_sodem.png"><br>Reakcje z metalami aktywnymi</li>
-  <li><br><img src="../../images/nitrowanie_fenoli.gif"><br>Nitrowanie fenolu</li>
+  <li class="h2"><img src="../../images/dysocjacja_fenolu.png"><br>Dysocjacja jonowa</li>
+  <li class="h2"><br><img src="../../images/fenolan.png"><br>Reakcje z wodorotlenkami (np. sodu)</li>
+  <li class="h2"><br><img src="../../images/fenol_z_sodem.png"><br>Reakcje z metalami aktywnymi</li>
+  <li class="h2"><br><img src="../../images/nitrowanie_fenolu.png"><br>Nitrowanie fenolu</li>
   </ul>
   </article>
   ]]>

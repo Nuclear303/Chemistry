@@ -9,8 +9,11 @@ figure, section{
  border-collapse: collapse  ;
 }
 figure{
-  height:100%;
-  width:fit-content;
+  height:fit-content;
+  width:20%;
+}
+figure + article{
+  width:80%;
 }
 section{
 width:100%;
@@ -19,5 +22,8 @@ flex-wrap: wrap;
 font-size: large;
 }
 li > img{
-  width:100vw;
+  width:97.5vw;
+}
+div.bw{
+  display: flex;
 }
